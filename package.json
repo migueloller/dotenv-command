@@ -1,0 +1,35 @@
+{
+  "name": "dotenv-command",
+  "version": "1.0.0",
+  "description": "Command substitution for dotenv.",
+  "license": "MIT",
+  "author": "Miguel Oller <maoa22@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/migueloller/dotenv-command"
+  },
+  "keywords": [
+    "dotenv",
+    "command",
+    "substitution"
+  ],
+  "scripts": {
+    "test": "jest --testEnvironment node",
+    "build": "babel src -Dsd lib -x '.ts'"
+  },
+  "peerDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.3",
+    "@types/node": "^13.9.0",
+    "babel-jest": "^25.1.0",
+    "dotenv": "^8.2.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1"
+  }
+}
