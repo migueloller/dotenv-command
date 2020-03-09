@@ -54,7 +54,7 @@ export function matchInterpolatedShellCommand(
   return null;
 }
 
-export function interpolate(string: string): string {
+export function interpolateShellCommands(string: string): string {
   let match = matchInterpolatedShellCommand(string);
 
   if (!match) return string;
